@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "lechros-home"
+version = "0.1.0"
+description = ""
+authors = ["Lechros <0onionion0@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "=3.12"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.1"
+winrt-runtime = "^2.0.1"
+winrt-windows-media-control = "^2.0.1"
+winrt-windows-media = "^2.0.1"
+winrt-windows-foundation-collections = "^2.0.1"
+winrt-windows-foundation = "^2.0.1"
+winrt-windows-storage = "^2.0.1"
+winrt-windows-storage-streams = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
